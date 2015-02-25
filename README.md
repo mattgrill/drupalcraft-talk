@@ -30,6 +30,12 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Structural weaknesses (like faulty update hooks) can be discovered during the build process.
   * Forces you to express your entire site structure in code (otherwise it won't exist on when you build)
 
+
+## command line tools
+* Real-time automated code linting, ensures syntax consistency and enforces Drupal Coding Standards.
+* Automated unit and functional testing (**Still in progress**).
+* Simple (pluggable) cli tool for building site, and deploying to both local and remote environments.
+
 ## docker
 
 Yo dog I hear you like virtualization? Write once, deploy anywhere.
