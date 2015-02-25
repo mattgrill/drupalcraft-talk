@@ -10,6 +10,7 @@ Four Kitchens. *Change the world by setting knowledge free.*
 ### Matthew Grill -- Engineer & Pirate of technology
 ![](http://fourkitchens.com/img/team/avatar/matt-grill.png)
 
+
 ## existing options
 
 * Pantheon MultiDev
@@ -20,6 +21,14 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Odd.
 * [Phase2 Drupal-Grunt-Tasks](https://2014.badcamp.net/session/using-grunt-manage-drupal-build-and-testing-tools)
   * Docker support?
+
+## benefits of building drupal from scratch
+* Separate Drupal core code from custom code.
+* Core files never introduced into project repository.
+* Codebase is more stable:
+  * Code is written to build correctly each time, hands off.
+  * Structural weaknesses (like faulty update hooks) can be discovered during the build process.
+  * Forces you to express your entire site structure in code (otherwise it won't exist on when you build)
 
 ## docker
 
