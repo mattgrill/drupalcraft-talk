@@ -262,10 +262,15 @@ server {
 * mysql 
   * db/user/pass unique to each build environment 
 
-
-
-
-
+## upcoming features of drupalcraft
+* We're still working on drupalcraft. Lots of things are coming!
+* More deployment options (Pantheon, aquia, heroku, etc)
+* Automated testing.
+  * Command-line tools that enable easy unit and functional (behat) testing.
+  * Testing integrated into build system. Testing fails, build fails.
+  * Git hooks that run tests when a commit is being formed.
+* Migration tools that will allow you to define test sets of data.
+* Performance auditing tools (deep Site Audit integration).
 
 
 
