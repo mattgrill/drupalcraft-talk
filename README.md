@@ -10,6 +10,7 @@ Four Kitchens. *Change the world by setting knowledge free.*
 ### Matthew Grill -- Engineer & Pirate of technology
 ![](http://fourkitchens.com/img/team/avatar/matt-grill.png)
 
+
 ## existing options
 
 * Pantheon MultiDev
@@ -20,6 +21,20 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Odd.
 * [Phase2 Drupal-Grunt-Tasks](https://2014.badcamp.net/session/using-grunt-manage-drupal-build-and-testing-tools)
   * Docker support?
+
+## benefits of building drupal from scratch
+* Separate Drupal core code from custom code.
+* Core files never introduced into project repository.
+* Codebase is more stable:
+  * Code is written to build correctly each time, hands off.
+  * Structural weaknesses (like faulty update hooks) can be discovered during the build process.
+  * Forces you to express your entire site structure in code (otherwise it won't exist on when you build)
+
+
+## command line tools
+* Real-time automated code linting, ensures syntax consistency and enforces Drupal Coding Standards.
+* Automated unit and functional testing (**Still in progress**).
+* Simple (pluggable) cli tool for building site, and deploying to both local and remote environments.
 
 ## docker
 
@@ -247,10 +262,15 @@ server {
 * mysql 
   * db/user/pass unique to each build environment 
 
-
-
-
-
+## upcoming features of drupalcraft
+* We're still working on drupalcraft. Lots of things are coming!
+* More deployment options (Pantheon, aquia, heroku, etc)
+* Automated testing.
+  * Command-line tools that enable easy unit and functional (behat) testing.
+  * Testing integrated into build system. Testing fails, build fails.
+  * Git hooks that run tests when a commit is being formed.
+* Migration tools that will allow you to define test sets of data.
+* Performance auditing tools (deep Site Audit integration).
 
 
 
