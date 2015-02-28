@@ -12,7 +12,6 @@ Four Kitchens. *Change the world by setting knowledge free.*
 
 
 ## existing options
-
 * Pantheon MultiDev
 * Acquia
 * Travis/Circle
@@ -21,6 +20,8 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Odd.
 * [Phase2 Drupal-Grunt-Tasks](https://2014.badcamp.net/session/using-grunt-manage-drupal-build-and-testing-tools)
   * Docker support?
+  * Structure is such that extension is confusing and difficult.
+  * Gulp is easier to understand and work with. It's also more performant.
 
 ## benefits of building drupal from scratch
 * Separate Drupal core code from custom code.
@@ -29,7 +30,6 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Code is written to build correctly each time, hands off.
   * Structural weaknesses (like faulty update hooks) can be discovered during the build process.
   * Forces you to express your entire site structure in code (otherwise it won't exist on when you build)
-
 
 ## command line tools
 * Real-time automated code linting, ensures syntax consistency and enforces Drupal Coding Standards.
