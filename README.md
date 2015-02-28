@@ -10,17 +10,30 @@ Four Kitchens. *Change the world by setting knowledge free.*
 ### Matthew Grill -- Engineer & Pirate of technology
 ![](http://fourkitchens.com/img/team/avatar/matt-grill.png)
 
+# what is drupalcraft?
+ * A Drupal build/test system.
+ * Source tree structure for a project that mandates good organization and excludes Drupal core from the repo.
+ * Pluggable deployment options so that building and deploying becomes a one-step action.
+ * Code sniffing tools that enables developers to consistenly write complient code.
+ * Extendable Gulp-based command line interface powers everything.
 
 ## existing options
-
 * Pantheon MultiDev
+  * Offers deployment, but no build/test tools.
+  * Good candidate for a deployment extension for drupalcraft!
 * Acquia
+  * Again, offers eployment, but no build/test tools.
+  * Also a good candidate for a deployment extension for drupalcraft!
 * Travis/Circle
   * Testing, but no deployment options.
 * Jenkins
   * Odd.
+  * Difficult to set up and configure.
+  * Steep learning curve.
 * [Phase2 Drupal-Grunt-Tasks](https://2014.badcamp.net/session/using-grunt-manage-drupal-build-and-testing-tools)
   * Docker support?
+  * Structure is such that extension is confusing and difficult.
+  * Gulp is easier to understand and work with. It's also more performant.
 
 ## benefits of building drupal from scratch
 * Separate Drupal core code from custom code.
@@ -29,7 +42,6 @@ Four Kitchens. *Change the world by setting knowledge free.*
   * Code is written to build correctly each time, hands off.
   * Structural weaknesses (like faulty update hooks) can be discovered during the build process.
   * Forces you to express your entire site structure in code (otherwise it won't exist on when you build)
-
 
 ## command line tools
 * Real-time automated code linting, ensures syntax consistency and enforces Drupal Coding Standards.
