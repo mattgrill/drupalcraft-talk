@@ -10,6 +10,12 @@ Four Kitchens. *Change the world by setting knowledge free.*
 ### Matthew Grill -- Engineer & Pirate of technology
 ![](http://fourkitchens.com/img/team/avatar/matt-grill.png)
 
+# what is drupalcraft?
+ * A Drupal build/test system.
+ * Source tree structure for a project that mandates good organization and excludes Drupal core from the repo.
+ * Pluggable deployment options so that building and deploying becomes a one-step action.
+ * Code sniffing tools that enables developers to consistenly write complient code.
+ * Extendable Gulp-based command line interface powers everything.
 
 ## existing options
 * Pantheon MultiDev
