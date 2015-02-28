@@ -13,11 +13,17 @@ Four Kitchens. *Change the world by setting knowledge free.*
 
 ## existing options
 * Pantheon MultiDev
+  * Offers deployment, but no build/test tools.
+  * Good candidate for a deployment extension for drupalcraft!
 * Acquia
+  * Again, offers eployment, but no build/test tools.
+  * Also a good candidate for a deployment extension for drupalcraft!
 * Travis/Circle
   * Testing, but no deployment options.
 * Jenkins
   * Odd.
+  * Difficult to set up and configure.
+  * Steep learning curve.
 * [Phase2 Drupal-Grunt-Tasks](https://2014.badcamp.net/session/using-grunt-manage-drupal-build-and-testing-tools)
   * Docker support?
   * Structure is such that extension is confusing and difficult.
